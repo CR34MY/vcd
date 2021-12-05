@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/*メイン*/
+main {
+}
+
+main p {
+	margin: 0;
+}
+
+h1 {
+	margin: 80px 0px 0px 60px;
+}
+
+.niku_area {
+	height: 180px;
+	margin: 30px;
+	display: flex;
+	background:#F3C03B;
+}
+
+.niku_photo {
+	height: 100%;
+}
+
+.niku_abstract {
+	margin: 20px;
+}
+
+.niku_name {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.niku_point {
+	margin-top: 5px;
+}

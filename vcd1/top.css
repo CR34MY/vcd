@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/*メイン*/
+main {
+	margin: 0;
+}
+
+#intro_movie {
+	margin: 0;
+	background:#F3C03B;
+}
+
+video {
+	width: 100%;
+}
+
+#motto {
+	margin: 0;
+	padding-bottom: 30px;
+	background:#F3C03B;
+}
+
+h1 {
+	margin: 0;
+	margin-left: 5%;
+	padding-top: 20px;
+	font-family: "HGS行書体", serif;
+}
+
+h1 span {
+	font-size: 55px;
+}
+
+#about_me {
+	padding-top: 30px;
+	display: flex;
+}
+
+#abstract {
+	width: 60%;
+	padding: 2%;
+}
+
+h2 {
+	margin-left: 20px;
+	font-size: 30px;
+}
+
+p span {
+	font-weight: bold;
+}
+
+#abstract_photo {
+	width: 40%;
+}
+
+#shichisumi {
+	width: 70%;
+}

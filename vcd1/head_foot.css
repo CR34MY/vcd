@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+body {
+	margin: 0px;
+}
+
+/*ヘッダー*/
+header {
+	width: 100%;
+	height: 80px;
+	background:#F3C03B;
+	display: flex;
+	position: fixed;
+	z-index: 1;
+}
+
+#mylogo {
+	height: 70px;
+	padding: 5px;
+	margin-left: 20px;
+	transition-duration: 0.3s;
+}
+
+#mylogo:hover {
+	transform: scale(1.05);
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav ul li {
+	padding: 10px;
+}
+
+nav ul li a {
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	transition-duration: 0.2s;
+}
+
+nav ul li a:hover{
+	color:crimson;
+}
+
+#gyuniku {
+	padding-left: 40px;
+}
+
+/*フッター*/
+footer {
+	background:#F3C03B;
+	margin-top: 20px;
+}
+
+#identifier {
+	padding: 20px;
+	font-size: 15px;
+	line-height: 1.2;
+}
+
+h3 {
+	margin: 0;
+	margin-bottom: 8px;
+	font-size: 25px;
+}
+
+.iden_item {
+	display: flex;
+}
+
+.iden_name {
+	margin: 0;
+	font-weight: bold;
+	width: 7.5%;
+}
+
+.iden_content {
+	margin: 2px;
+}
+
+#copyright {
+	text-align: center;
+}
