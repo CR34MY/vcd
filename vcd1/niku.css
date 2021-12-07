@@ -2,10 +2,7 @@
 
 /*メイン*/
 main {
-}
-
-main p {
-	margin: 0;
+	padding-top: 30px;
 }
 
 h1 {
